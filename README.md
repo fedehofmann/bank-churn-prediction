@@ -16,24 +16,21 @@ Our workflow is structured around four main notebooks, complemented by raw datas
 ---
 
 ## Repository Structure
+
 BANK-CHURN-PREDICTION/
-│
 ├── data/
-│ ├── raw/
-│ │     ├── Modelo_Clasificacion_Dataset.csv
-│ │     ├── Modelo_Clasificacion_Diccionario_de_Datos.xlsx
-│ └── processed/
+│   ├── raw/
+│   │   ├── Modelo_Clasificacion_Dataset.csv
+│   │   └── Modelo_Clasificacion_Diccionario_de_Datos.xlsx
+│   └── processed/
 │       └── churn_prediction_dataset.parquet
-│
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_model_comparison.ipynb
-│ ├── 03_model_refinement.ipynb
-│ └── 04_final_model.ipynb
-│
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_model_comparison.ipynb
+│   ├── 03_model_refinement.ipynb
+│   └── 04_final_model.ipynb
 ├── final_model/
-│ └── final_xgb_model_with_threshold.pkl
-│
+│   └── final_xgb_model_with_threshold.pkl
 └── README.md
 
 ## Notebooks
