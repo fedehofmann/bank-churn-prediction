@@ -17,6 +17,7 @@ Our workflow is structured around four main notebooks, complemented by raw datas
 
 ## Repository Structure
 
+```bash
 BANK-CHURN-PREDICTION/
 ├── data/
 │   ├── raw/
@@ -32,6 +33,7 @@ BANK-CHURN-PREDICTION/
 ├── final_model/
 │   └── final_xgb_model_with_threshold.pkl
 └── README.md
+```
 
 ## Notebooks
 
